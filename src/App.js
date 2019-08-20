@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Octocards from './components/octocards'
+import DisplayCats from './components/octocards'
 
 class App extends Component {
   render() {
@@ -18,14 +18,7 @@ class App extends Component {
         </nav>
         <main className="main-body">
           <div className="container-main">
-            <ul>
-              <li className="">Image</li>
-              <li className="">Image</li>
-              <li className="">Image</li>
-              <li className="">Image</li>
-              <li className="">Image</li>
-              <li className="">Image</li>
-            </ul>
+            <DisplayCats />
           </div>
         </main>
         <footer className="footer">

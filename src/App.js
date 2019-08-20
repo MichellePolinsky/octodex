@@ -1,9 +1,38 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Octocards from './components/octocards'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <main>
+        <nav className="nav-bar">
+          <div className="left-side">
+            <h1>Octodex</h1>
+            <h2 className="home">Home</h2>
+            <h2>FAQ</h2>
+          </div>
+          <div className="right-side">
+            <h2>Follow Us on Twitter</h2>
+            <h2>Back to GitHub</h2>
+          </div>
+        </nav>
+        <main className="main-body">
+          <div className="container-main">
+            <ul>
+              <li className="">Image</li>
+              <li className="">Image</li>
+              <li className="">Image</li>
+              <li className="">Image</li>
+              <li className="">Image</li>
+              <li className="">Image</li>
+            </ul>
+          </div>
+        </main>
+        <footer className="footer">
+          © 2013 – 2019 GitHub, Inc. All rights reserved.
+        </footer>
+      </main>
+    )
   }
 }
 

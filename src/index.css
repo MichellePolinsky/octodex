@@ -6,7 +6,83 @@ html {
   height: 100%;
 }
 
-body {
+main {
   margin: 0;
   min-height: 100%;
+}
+
+h1 {
+  padding: 0.5rem;
+  color: #24292e;
+}
+
+h2 {
+  padding: 0.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  color: #24292e;
+  font-size: 0.7rem;
+  background-color: whitesmoke;
+}
+
+.left-side {
+  display: flex;
+  color: gray;
+  justify-content: flex-start;
+}
+.home {
+  color: darkgray;
+}
+
+.right-side {
+  display: flex;
+  color: gray;
+  justify-content: flex-end;
+}
+
+.main-body {
+  background-color: rgb(243, 241, 241);
+}
+
+.container-main {
+  display: flex;
+  padding: 5rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+li {
+  list-style: none;
+  border: 1px;
+  border-style: solid;
+  border-radius: 7px;
+  border-color: gray;
+  width: 200px;
+  height: 200px;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.footer {
+  color: #24292e;
 }
